@@ -23,5 +23,6 @@ steps:
   displayName: 'npm install and build'
 
 - script: |
+    cd zoom-client
     npm run test
   displayName: 'testing'
