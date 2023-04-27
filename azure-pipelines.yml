@@ -19,7 +19,7 @@ steps:
     npm install -g @angular/cli
     cd zoom-client
     npm install
-    ng build --prod
+    ng build
   displayName: 'npm install and build'
 
 - script: |
